@@ -1,0 +1,13 @@
+#cloud-config
+hostname: rancher01
+ssh_authorized_keys:
+        <ssh_key>
+rancher01:
+    network:
+        interfaces:
+            eth0:
+                dhcp: true
+                mtu:1500
+    dns:
+        nameservers:
+            - 192.168.1.1
