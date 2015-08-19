@@ -2,7 +2,7 @@
 hostname: rancher01
 ssh_authorized_keys:
         <ssh_key>
-rancher01:
+rancher:
     network:
         interfaces:
             eth0:
